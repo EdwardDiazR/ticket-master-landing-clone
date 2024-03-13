@@ -1,0 +1,67 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 20px 20px;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.event-portrait-section {
+  max-height: 100%;
+  display: none;
+}
+.event-portrait-section > img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.event-info {
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: white;
+  min-width: fit-content;
+  width: 40%;
+  max-height: 50%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.634);
+
+}
+
+.event-description {
+  flex-grow: 1;
+}
+
+.buy-tickets__button {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  height: 45px;
+  min-width: 50px;
+  background-color: blue;
+  color: white;
+  align-self: flex-end;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: 0.14s ease-in-out;
+}
+
+.buy-tickets__button:hover {
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}

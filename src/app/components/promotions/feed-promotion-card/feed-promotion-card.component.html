@@ -1,0 +1,17 @@
+
+
+@if(EventInfo){
+<section class="main-section" id="main" [style]="a">
+  <div class="event-portrait-section">
+    <img src="{{ EventInfo.imageUrl }}" />
+  </div>
+  <div class="event-info">
+    <h1 >{{ EventInfo.eventName }}</h1>
+    <span>{{ EventInfo.eventArtist }}</span>
+    <p class="event-description"></p>
+    <p>12/12/24 8:00PM - Estadio Olimpico Felix Sanchez</p>
+    <button class="buy-tickets__button">Buy tickets</button>
+  </div>
+ 
+</section>
+}
